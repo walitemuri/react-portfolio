@@ -6,7 +6,7 @@
 
 .about__me {
     width: 100%;
-    transform: translate(5%);
+    transform: translate(15%);
     border-radius: 2rem;
     background: linear-gradient(
         45deg,
@@ -85,6 +85,7 @@
     .about__me {
         width: 50%;
         margin: 2ren auto 4rem;
+        transform: translate(0%);
     }
 
     .about__content p {
@@ -97,6 +98,7 @@
     .about__me {
         width: 65%;
         margin: 0 auto 3rem;
+        transform: translate(0%);
     }
 
     .about__cards {

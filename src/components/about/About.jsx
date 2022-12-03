@@ -40,8 +40,9 @@ const About = () => {
           </article>
         </div>
         <p>
-          My skills and talent are unparalleled in the domain of Software Development. My name is Wali Temuri, the one who is favoured by god,
-          Ruler of the Lost City of Atlantis.
+          My skills and talent are unparalleled in the domain of Software Development.
+          I am one who eternally seeks God's favour. 
+          The Crowned Ruler of the Lost City, Atlantis.
         </p>
 
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>
