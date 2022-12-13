@@ -30,19 +30,17 @@ const About = () => {
           <article className="about__card">
             <FiUsers className='about__icon'/>
             <h5>Clients</h5>
-            <small>100+ Worldwide</small>
+            <small>15+ Worldwide</small>
           </article>
 
           <article className="about__card">
             <IoLibrary className='about__icon'/>
             <h5>Projects</h5>
-            <small>300+ Projects</small>
+            <small>50+ Projects</small>
           </article>
         </div>
         <p>
           My skills and talent are unparalleled in the domain of Software Development.
-          I am one who eternally seeks God's favour. 
-          The Crowned Ruler of the Lost City, Atlantis.
         </p>
 
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>
