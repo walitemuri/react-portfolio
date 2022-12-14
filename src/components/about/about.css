@@ -45,7 +45,7 @@
     background: var(--color-background-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
-    padding: 4rem;
+    padding: 2.5rem;
     text-align: center;
     transform: var(--transition);
 }
