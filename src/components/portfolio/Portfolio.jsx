@@ -11,6 +11,7 @@ const data = [
     title: "Binary Expression Tree",
     github: "https://github.com/walitemuri/Binary_Expression_Tree",
     demo: "https://github.com/walitemuri",
+    description: ""
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ const data = [
     title: "Down-Heap Algorithm",
     github: "https://github.com/walitemuri/Down-Heap",
     demo: "https://github.com/walitemuri",
+    description: ""
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ const data = [
     title: "Connect-Four OOP",
     github: "https://github.com/walitemuri/ConnectFour_OOP",
     demo: "https://github.com/walitemuri",
+    description: ""
   },
   {
     id: 4,
@@ -32,6 +35,7 @@ const data = [
     title: "Covid-19 Regional Analysis",
     github: "https://github.com/walitemuri/covid-19-response",
     demo: "https://github.com/walitemuri",
+    description: ""
   },
   {
     id: 5,
@@ -39,6 +43,7 @@ const data = [
     title: "Car Rental Data Management",
     github: "https://github.com/walitemuri/CarRental_LinkedList",
     demo: "https://github.com/walitemuri",
+    description: ""
   },
   {
     id: 6,
@@ -46,6 +51,7 @@ const data = [
     title: "TicTacToe OOP",
     github: "https://github.com/walitemuri/TicTacToe_OOP",
     demo: "https://github.com/walitemuri",
+    description: "Hey <br> There"
   },
 ];
 
@@ -56,7 +62,7 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        {data.map(({ id, image, title, github, demo }) => {
+        {data.map(({ id, image, title, github, demo, pointOne, pointTwo, }) => {
           return (
             <article key={id} className="portfolio__item">
               <div className="portfolio__item-image">
@@ -70,6 +76,13 @@ const Portfolio = () => {
                 <a href={demo} className="btn btn-primary" target="_blank">
                   Live Demo
                 </a>
+              </div>
+              <div className="portfolio__description">
+                <ul>
+                  <li>Built in Node.js</li>
+                  <li></li>
+                  <li></li>
+                </ul>
               </div>
             </article>
           );

@@ -1,6 +1,6 @@
 import React from "react";
 import "./quote.css";
-import AVTR1 from "../../assets/heroFour.png";
+import AVTR1 from "../../assets/HeroN.png";
 import AVTR2 from "../../assets/heroFive.png";
 
 // import Swiper core and required modules
@@ -15,16 +15,16 @@ import "swiper/css/pagination";
 const data = [
   {
     avatar: AVTR1,
-    name: "Thomas Shelby",
+    name: "Friedrich Neitzsche",
     review:
-      "Never Parlay on the backfoot. a bee, your hand a bee, your hand a bee, your hand a bee, your hand a bee, your hand a bee, your hand a bee, your hand",
+      '"Whoever fights monsters should see to it that in the process he does not become a monster. And if you gaze long enough into an abyss, the abyss will gaze back into you."',
   },
 
   {
     avatar: AVTR2,
     name: "Mohammad Ali",
     review:
-      "Float like a butterfly and sting like a bee, your hands can't hit what your eyes can't see. a bee, your hand a bee, your hand a bee, your hand a bee, your hand",
+      '"Only a man who knows what it is like to be defeated can reach down to the bottom of his soul and come up with the extra ounce of power it takes to win when the match is even."',
   },
 ];
 

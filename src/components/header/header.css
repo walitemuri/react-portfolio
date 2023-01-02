@@ -38,10 +38,10 @@ header {
 
 /* ===== My Picture ===== */
 .me {
-    width: 22rem;
+    width: 24rem;
     height: 33rem;
     position: absolute;
-    left: calc(50% - 11rem);
+    left: calc(50% - 12rem);
     margin-top: 4.2rem;
     border-radius: 10rem 10rem 0 0;
     overflow: hidden;
@@ -49,6 +49,8 @@ header {
     justify-content: center;
     opacity: 0.45;
 }
+
+
 
 /* ===== Scroll Down ===== */
 .scroll_down {
