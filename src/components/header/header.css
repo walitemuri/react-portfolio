@@ -41,7 +41,7 @@ header {
     width: 22rem;
     height: 33rem;
     position: absolute;
-    left: calc(50% - 10.1rem);
+    left: calc(50% - 11rem);
     margin-top: 4.2rem;
     border-radius: 10rem 10rem 0 0;
     overflow: hidden;
