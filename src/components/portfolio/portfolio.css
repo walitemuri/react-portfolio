@@ -4,6 +4,12 @@
     gap: 2rem;
 }
 
+li {
+    font-size: 15px;
+    padding: 0.4rem;
+    /* color: var(--color-primary); */
+}
+
 .portfolio__item {
     background: var(--color-background-variant);
     padding: 1.5rem;

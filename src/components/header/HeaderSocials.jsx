@@ -7,15 +7,16 @@ const HeaderSocials = () => {
   return (
     <div className="header__socials">
       <a
-        href="https://www.linkedin.com/in/wali-temuri-b4ba23248"
+        href="https://www.linkedin.com/in/wali-temuri"
         target="_blank"
+        rel="noreferrer"
       >
         <BsLinkedin />
       </a>
-      <a href="https://github.com/walitemuri" target="_blank">
+      <a href="https://github.com/walitemuri" target="_blank" rel="noreferrer">
         <BsGithub />
       </a>
-      <a href="https://twitter.com/OneWhoProfesses" target="_blank">
+      <a href="https://twitter.com/walitemuri" target="_blank" rel="noreferrer">
         <TfiTwitter />
       </a>
     </div>

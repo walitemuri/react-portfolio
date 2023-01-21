@@ -16,7 +16,7 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
 
               <div className="">
-                <h4>HTML</h4>
+                <h4>HTML/CSS</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -24,7 +24,7 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
 
               <div className="">
-                <h4>CSS</h4>
+                <h4>SCSS</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -38,7 +38,7 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div className="">
-                <h4>Tailwind</h4>
+                <h4>Vue.js</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -58,7 +58,7 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div className="">
-                <h4>Node.js</h4>
+                <h4>FastAPI</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -79,14 +79,14 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div className="">
-                <h4>Python</h4>
+                <h4>Flask</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div className="">
-                <h4>Java</h4>
+                <h4>Django</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>

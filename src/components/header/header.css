@@ -39,15 +39,15 @@ header {
 /* ===== My Picture ===== */
 .me {
     width: 24rem;
-    height: 33rem;
+    height: 30rem;
     position: absolute;
-    left: calc(50% - 12rem);
+    left: calc(50% - 11.7rem);
     margin-top: 4.2rem;
     border-radius: 10rem 10rem 0 0;
     overflow: hidden;
-    padding: 4rem 0.8rem 0.8rem 1.5rem; /*1.5rem orignal*/
+    padding: 4rem 0.8rem 0.0rem 1.5rem; /*1.5rem orignal*/
     justify-content: center;
-    opacity: 0.45;
+    opacity: 0.5;
 }
 
 
