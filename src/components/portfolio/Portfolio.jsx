@@ -52,7 +52,7 @@ const data = [
     id: 5,
     image: IMG2,
     title: "Car Rental System",
-    github: "https://github.com/walitemuri/CarRental_LinkedList",
+    github: "https://github.com/walitemuri/Car_LinkedList_py",
     demo: "https://github.com/walitemuri",
     p1: "Python Implementation for Car Rental Services, managing the database lists",
     p2: "Maintains 3 linked lists: Rented, Repair, Available",
@@ -61,12 +61,12 @@ const data = [
   {
     id: 6,
     image: IMG7,
-    title: "Down-Heap Algorithm",
-    github: "https://github.com/walitemuri/Down-Heap",
-    demo: "https://github.com/walitemuri",
-    p1: "C Implenentation of the  Down-Heap algorithm utilizes first 10 digits in data file as key",
-    p2: "Pr",
-    p3: "Python Libs: Seaborn, Pandas, matplotlibs",
+    title: "A* Pathfinding Algorithm",
+    github: "https://github.com/walitemuri/A-PathFinding_Py",
+    demo: "https://www.youtube.com/shorts/0W1wnDD8vwY",
+    p1: "Python Implenentation of the  A* algorithm utilizes PyGame for visualization",
+    p2: "Manhattan distance used for heuristic function",
+    p3: "Aesthetic visualization illustrates the functionality of the A* algorithm",
   },
 ];
 
