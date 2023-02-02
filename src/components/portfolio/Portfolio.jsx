@@ -2,62 +2,71 @@ import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/binTree.png";
 import IMG2 from "../../assets/Min-Heap1.png";
-import IMG3 from "../../assets/cFour.png";
+import IMG4 from "../../assets/post1.png";
+import IMG5 from "../../assets/plot.png";
+import IMG6 from "../../assets/portfolio.png";
+import IMG7 from "../../assets/down-heap.png";
 
 const data = [
   {
     id: 2,
-    image: IMG2,
+    image: IMG4,
     title: "FastAPI: Blog Backend",
     github: "https://github.com/walitemuri/FastAPI-Blog",
-    demo: "https://github.com/walitemuri",
+    demo: "https://fastapi--wt-blog.herokuapp.com/docs",
     p1: "RESTful API, all CRUD operations",
     p2: "PostgreSQL Database, JWT secured endpoints",
-    p3: "SQLAlchemy ORM, Alembic DB Migration"
+    p3: "SQLAlchemy ORM, Alembic DB Migration",
   },
   {
     id: 1,
     image: IMG1,
-    title: "Binary Expression Tree",
+    title: "Binary Expression Tree Calculator",
     github: "https://github.com/walitemuri/Binary_Expression_Tree",
-    demo: "https://github.com/walitemuri",
+    demo: "https://github.com/walitemuri/Binary_Expression_Tree",
     p1: "C Implementation of BST Data Structure",
     p2: "Supports variables, calculation of entered expressions",
-    p3: "Displays Preorder, Postorder, Inorder"
+    p3: "Displays Preorder, Postorder, Inorder",
   },
   {
     id: 4,
-    image: IMG1,
+    image: IMG5,
     title: "Covid-19 Regional Analysis",
     github: "https://github.com/walitemuri/covid-19-response",
     demo: "https://github.com/walitemuri",
-    p1: "Data Analysis on relationship between vaccination rates and positive test cases",
-    p2: "Covered various regions in Ontario, sorted by Age Group and plotted on a graph",
-    p3: "Python Libs: Seaborn, Pandas, matplotlibs"
+    p1: "Data Analysis on KPIs like vaccination rates and positive test cases",
+    p2: "Covered various regions in Ontario, includes modifiable date-range for analysis",
+    p3: "Python Libs: Seaborn, Pandas, matplotlib",
   },
   {
     id: 3,
-    image: IMG1,
-    title: "Portfolio Page: React",
-    github: "https://github.com/walitemuri/ConnectFour_OOP",
-    demo: "https://github.com/walitemuri",
-    description: ""
+    image: IMG6,
+    title: "Personal Portfolio Page",
+    github: "https://github.com/walitemuri/react-portfolio",
+    demo: "#header",
+    p1: "Personal Portfolio Page created with ReactJSX",
+    p2: "Utilizes Media Queries, CSS animations and dynamic arrays for responsive design",
+    p3: "Integration with EmailJS in order to send emails directly from contact form",
   },
   {
     id: 5,
-    image: IMG1,
-    title: "Car Rental Data Management",
+    image: IMG2,
+    title: "Car Rental System",
     github: "https://github.com/walitemuri/CarRental_LinkedList",
     demo: "https://github.com/walitemuri",
-    description: ""
+    p1: "Python Implementation for Car Rental Services, managing the database lists",
+    p2: "Maintains 3 linked lists: Rented, Repair, Available",
+    p3: "Implementation of Merge Sort for efficient sorting of lists by plate and date",
   },
   {
     id: 6,
-    image: IMG1,
-    title: "A* Pathfinding Algorithm",
-    github: "https://github.com/walitemuri/TicTacToe_OOP",
+    image: IMG7,
+    title: "Down-Heap Algorithm",
+    github: "https://github.com/walitemuri/Down-Heap",
     demo: "https://github.com/walitemuri",
-    description: "Hey <br> There"
+    p1: "C Implenentation of the  Down-Heap algorithm utilizes first 10 digits in data file as key",
+    p2: "Pr",
+    p3: "Python Libs: Seaborn, Pandas, matplotlibs",
   },
 ];
 
@@ -68,7 +77,7 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        {data.map(({ id, image, title, github, demo, p1, p2,p3 }) => {
+        {data.map(({ id, image, title, github, demo, p1, p2, p3 }) => {
           return (
             <article key={id} className="portfolio__item">
               <div className="portfolio__item-image">
@@ -76,10 +85,20 @@ const Portfolio = () => {
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
-                <a href={github} className="btn" target="_blank" rel="noreferrer" >
+                <a
+                  href={github}
+                  className="btn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Github
                 </a>
-                <a href={demo} className="btn btn-primary" target="_blank" rel="noreferrer" >
+                <a
+                  href={demo}
+                  className="btn btn-primary"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Live Demo
                 </a>
               </div>

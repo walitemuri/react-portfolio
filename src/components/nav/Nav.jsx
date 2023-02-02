@@ -1,9 +1,9 @@
 import React from "react";
 import "./nav.css";
 import { MdHomeFilled } from "react-icons/md";
-import { FaUserTie } from "react-icons/fa";
+// import { FaUserTie } from "react-icons/fa";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
-import { FaHandshake } from "react-icons/fa";
+// import { FaHandshake } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { useState } from "react";
 
@@ -18,13 +18,13 @@ const Nav = () => {
       >
         <MdHomeFilled />
       </a>
-      <a
+      {/* <a
         href="#about"
         onClick={() => setActiveNav("#about")}
         className={activeNav === "#about" ? "active" : ""}
       >
         <FaUserTie />
-      </a>
+      </a> */}
       <a
         href="#portfolio"
         onClick={() => setActiveNav("#portfolio")}

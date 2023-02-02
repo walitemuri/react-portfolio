@@ -49,7 +49,7 @@ const Contact = () => {
             <CiLinkedin className="contact__option-icon" />
             <h4>LinkedIn</h4>
             <h5></h5>
-            <a href="https://linkedin.com/walitemuri" target="_blank">
+            <a href="https://linkedin.com/in/wtemuri/" target="_blank">
               Send a message
             </a>
           </article>

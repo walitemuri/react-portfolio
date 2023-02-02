@@ -8,14 +8,14 @@ const Footer = () => {
   return (
     <footer>
       <a href="#" className="footer__logo">
-        WaliT
+        Wali Temuri
       </a>
 
       <ul className="permaLinks">
         <li>
           <a href="#">Home</a>
         </li>
-        <li>
+        {/* <li>
           <a href="#about">About</a>
         </li>
         <li>
@@ -23,7 +23,7 @@ const Footer = () => {
         </li>
         <li>
           <a href="#services">Services</a>
-        </li>
+        </li> */}
         <li>
           <a href="#portfolio">Portfolio</a>
         </li>
@@ -33,13 +33,25 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://instagram.com">
+        <a
+          href="https://instagram.com/walitemuri"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaInstagram />
         </a>
-        <a href="https://twitter.com">
+        <a
+          href="https://twitter.com/walitemuri"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaTwitter />
         </a>
-        <a href="https://linkedin.com">
+        <a
+          href="https://linkedin.com/in/wtemuri"
+          target="_blank"
+          rel="noreferrer"
+        >
           <BsLinkedin />
         </a>
       </div>
